@@ -1,0 +1,302 @@
+body {
+    font-family: "IBM Plex Mono", monospace;
+    width: 1400px;
+}
+
+
+section {
+    padding-left: 125px;
+    padding-top: 27px;
+}
+
+.section-footer {
+    background-color: #FFFFFF;
+    border-radius: 30px 30px 0 0;
+    padding: 0 0 0 0;
+    margin: 0;
+}
+
+footer {
+    background-color: #121212;
+}
+
+
+
+.section-header {
+    background-image: url("/resources/full-size-photogrophi.png");
+    height: 765px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.logo__link {
+    margin-left: -4px;
+    padding-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 130px;
+    height: 39px;
+    border-radius: 100px;
+    background: black;
+    letter-spacing: -0.11em;
+    font-size: 42.41px;
+    font-weight: 700;
+    line-height: 39px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #1BFF07;
+    cursor: pointer;
+}
+
+.nav__links {
+    display: inline-block;
+    float: right;
+    margin-right: 123px;
+}
+
+
+
+.nav__item {
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-decoration: none;
+    letter-spacing: -0.03em;
+    text-transform: lowercase;
+    text-align: left;
+}
+
+.nav__item:hover {
+    color: #1BFF07;
+}
+
+.nav__item:first-child {
+    margin-left: 0;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 72px;
+    font-weight: 400px;
+    color: #FFFFFF;
+}
+
+p,
+h1,
+h2,
+h3 {
+    letter-spacing: -0.03em;
+}
+
+.about_us {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 125px;
+    bottom: 328px;
+    width: 430px;
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 70px;
+    font-weight: 400;
+    position: absolute;
+    color: #1BFF07;
+    left: 125px;
+    bottom: 94px;
+    width: 919px;
+}
+
+
+main {
+    background-color: #121212;
+    padding-bottom: 150px;
+}
+
+.section__black {
+    padding-top: 150px;
+    padding-left: 120px;
+}
+
+
+
+.project__list {
+    margin-top: 40px;
+
+}
+
+.project__item {
+    position: relative;
+}
+
+.project__item-title {
+    position: absolute;
+    left: 50px;
+    bottom: 94px;
+    font-size: 35px;
+    line-height: 46px;
+    font-weight: 400;
+    color: #FFFFFF; 
+}
+
+.project__item-description {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 39px;
+    font-weight: 400;
+}
+
+.all_projects {
+    margin-top: 80px;
+    padding: 56px 86px;
+    font-size: 30px;
+    line-height: 39px;
+    background-color: #1BFF07;
+    border-radius: 10px;
+    text-align: center;
+    color: #000000;
+}
+
+.all_projects:hover {
+    background-color: #000000;
+    border: 1px solid #1BFF07;
+    color: #1BFF07;
+}
+
+.skils__list {
+    margin-top: 49px;
+}
+
+.skil__item-title {
+    margin-top: 16px;
+    font-size: 35px;
+    line-height: 46px;
+    font-weight: 400;
+    color: #1BFF07;
+}
+
+.skil__item {
+    margin-top: 60px;
+}
+
+.skil__item:first-child {
+    margin-top: 0;
+}
+
+.skil__item-description {
+    width: 778px;
+    margin-top: 15px;
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: 400;
+    color: #FFFFFF;
+
+}
+
+.makeforyou {
+    margin-bottom: 150px;
+}
+
+.makeforyou__title {
+    font-size: 35px;
+    line-height: 46px;
+    text-align: left;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.makeforyou__item {
+    margin-top: 74px;
+}
+
+.makeforyou__text-conteiner {
+    background-image: url(/resources/makeforyou/background_text.png);
+    background-repeat: no-repeat;
+    height: 283px;
+}
+
+.makeforyou__item-title {
+    padding-left: 40px;
+    padding-top: 40px;
+    color: #1BFF07;
+}
+
+.makeforyou__item-description {
+    padding-left: 40px;
+    padding-top: 16px;
+}
+
+.makeforyou__item:last-child {
+    margin-top: 137px;
+}
+
+.section__contact {
+    background-color: #191C19;
+    padding-top: 0px;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.contact__image-right {
+    position: absolute;
+    right: -188px;
+    top: -10px;
+
+}
+
+.contact__container-content {
+    margin-top: 320px;
+
+}
+
+
+
+.contact__item {
+    margin-top: 20px;
+    box-sizing: border-box;
+    display: block;
+    font-size: 60px;
+    line-height: 60px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.contact__item:hover {
+    color: #1BFF07;
+}
+
+.contact__item:first-child {
+    margin-top: 28px;
+}
+
+.footer-text {
+    font-family: "Manrope", sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 400;
+    padding-top: 76px;
+    padding-left: 127px;
+    color: #000000;
+}
+
+.footer-description {
+    font-family: "Manrope", sans-serif;
+    margin-top: 66px;
+    margin-left: 124px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    opacity: 50%;
+}
